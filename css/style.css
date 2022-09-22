@@ -22,6 +22,8 @@
 
     /* Background color */
     --bg-white: #fff;
+    --bg--dark-color: #03262c;
+    
 
     /* Text-Colors */
     --primary-text: #061738;
@@ -315,6 +317,53 @@ section{
 }
 /* 3.Features */
 
+.feature_section .features-box{
+    background-color: transparent;
+    border: 0.15rem solid var(--light-color);
+    padding: 8rem 0;
+    transition: all 0.3s;
+}
+
+.feature_section .features-icon-border{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0.2rem solid var(--light-color);
+    padding: 1.3rem;
+    display: inline-block;
+}
+
+.feature_section .features-box .features-icon{
+    height: 6.5rem;
+    width: 6.5rem;
+    background-color: var(--light-color);
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature_section .features-box .features-icon img{
+    width: 3.7rem;
+}
+
+.feature_section .features-box h3{
+    margin-top: 1.5rem;
+    color: var(--primary-text);
+}
+
+.feature_section .features-box:hover{
+    background-color: var(--bg--dark-color);
+    border-color: var(--bg--dark-color);
+}
+
+.feature_section .features-box:hover h3{
+    color: var(--text-white);
+}
+
+.feature_section .features-box:hover .features-icon-border{
+    border-color: var(--secondary-color);
+}
 /* 4.About */
 
 /* 5. Product Card Design */
