@@ -366,6 +366,19 @@ section{
 }
 /* 4.About */
 
+.landing_about_section{
+    background: url("../images/about/about-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9rem 0;
+}
+
+.landing_about_section p{
+    color: var(--primary-text);
+    margin-bottom: 2rem;
+}
+
 /* 5. Product Card Design */
 
 /* 6.Testimonial */
