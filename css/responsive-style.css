@@ -9,6 +9,9 @@
    
 
     /* 2. Banner Section */
+    .banner_section .carousel-item{
+        height: 90vh;
+    }
 }
 
 /* Media Query 991px */
@@ -55,7 +58,12 @@
 
 
     /* 1. Banner Section */
-
+    .banner_section{
+        min-height: 80%;
+    }
+    .banner_section .carousel-item{
+        height: 90vh;
+    }
 
 }
 
