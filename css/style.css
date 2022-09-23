@@ -583,3 +583,11 @@ section{
     color: var(--primary-text);
     font-weight: 600;
 }
+
+/* ----------------------- */
+/* 9.About Html Page */
+/* ----------------------- */
+
+.about .about-details p{
+    color: var(--primary-text);
+}
